@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Smart Contract Reader</title>
+</head>
+<body>
+  <h2>Smart Contract Reader</h2>
+
+  <button id="connectBtn">Connect Wallet</button>
+
+  <p>Network: <span id="network">Unknown</span></p>
+
+  <input id="contractInput" placeholder="Enter Contract Address" />
+  <button id="readBtn">Read Contract</button>
+
+  <p>Result: <span id="result">None</span></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+  <script src="abi.js"></script>
+  <script src="config.js"></script>
+  <script src="provider.js"></script>
+  <script src="connect.js"></script>
+  <script src="network.js"></script>
+  <script src="contract.js"></script>
+  <script src="ui.js"></script>
+  <script src="utils.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
